@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.hvr{
+
+}
+.hvr:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.logo{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.amazon-logo{
+    background-image: url(../Image/amazon-logo-black.png);
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    
+}
+.box-part{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.box{
+    height: 600px;
+    width: 350px;
+    border: 1px solid rgb(206, 196, 196);
+    border-radius: 8px;
+}
+.acc{
+    padding: 20px;
+}
+.box-text1 p{
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+.input-name{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.input-name input{
+    height: 30px;
+    width: 320px;
+    border-radius: 5px;
+}
+.box-text2 p{
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+.input-number{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.input-number input{
+    height: 30px;
+    width: 320px;
+    border-radius: 5px;
+}
+.box-text3 p{
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+.input-password{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.input-password input{
+    height: 30px;
+    width: 320px;
+    border-radius: 5px;
+}
+.must p{
+    padding-top: 10px;
+    font-size: 0.70em;
+}
+.box-text4 p{
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+.input-re-pass{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.input-re-pass input{
+    height: 30px;
+    width: 320px;
+    border-radius: 5px;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.in-butt{
+    height: 30px;
+    width: 320px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-weight: 400;
+    background-color: #f0c14b;
+    transition: all 0.2s ease;
+    box-shadow: 1px 1px 2px 2px gray;
+}
+.in-butt:active{
+    transform: scale(0.95);
+}
+.in-butt:hover{
+    background-color: #f3b008;
+}
+.condition{
+    padding-top: 20px;
+}
+.condition p{
+    font-size: 0.70rem;
+}
+.condition a{
+    text-decoration: none;
+    color: rgb(59, 139, 245);
+}
+.border1{
+    border-top: 1px solid rgb(206, 196, 196);
+    margin-top: 25px;
+}
+.buying{
+    padding-top: 15px;
+}
+.buying p{
+    font-size: 0.85rem;
+}
+.buying a{
+    font-size: 0.85rem;
+    color: rgb(59, 139, 245);
+    text-decoration: none;
+}
+.border2{
+    border-top: 1px solid rgb(206, 196, 196);
+    margin-top: 25px;
+}
+.sin{
+    padding-top: 15px;
+}
+.sin p{
+    font-size: 0.85rem;
+}
+.sin a{
+    font-size: 0.85rem;
+    color: rgb(59, 139, 245);
+    text-decoration: none;
+}
+.border3{
+    border-top: 1px solid rgb(206, 196, 196);
+    margin-top: 30px;
+    box-shadow: 0 1px 1px 1px rgb(216, 211, 211);
+}
+.last{
+    text-align: center;
+}
+.ops{
+    padding-top: 40px;
+}
+.ops a{
+    color: rgb(59, 139, 245);
+    text-decoration: none;
+    margin: 15px;
+    font-size: 0.75rem;
+}
+.last p{
+    padding-top: 10px;
+    color: #767676;
+    font-size: 0.75rem;
+}
